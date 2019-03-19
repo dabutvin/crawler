@@ -41,6 +41,11 @@ const crate = {
   fossology
 }
 
+const docker = {
+  _type: 'docker',
+  clearlydefined
+}
+
 const maven = {
   _type: 'maven',
   source,
@@ -111,6 +116,7 @@ const entities = {
   licensee,
   npm,
   crate,
+  docker,
   maven,
   nuget,
   pod,
